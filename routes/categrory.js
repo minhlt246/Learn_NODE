@@ -3,7 +3,7 @@ var router = express.Router();
 var mongoose = require('../models/categrory');
 
 /* GET home page. */
-router.get('/', async function (req, res, next) {
+router.get('/categrory', async function (req, res, next) {
     res.render('categrory', { title: 'Express' });
     let data = await Category.find();
     res.json(data);
