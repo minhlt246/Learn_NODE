@@ -1,0 +1,47 @@
+### AL ###
+#Template for AL projects for Dynamics 365 Business Central
+#launch.json folder
+.vscode/
+#Cache folder
+.alcache/
+#Symbols folder
+.alpackages/
+#Snapshots folder
+.snapshots/
+#Testing Output folder
+.output/
+#Extension App-file
+*.app
+#Rapid Application Development File
+rad.json
+#Translation Base-file
+*.g.xlf
+#License-file
+*.flf
+#Test results file
+TestResults.xml
+# Bỏ qua tất cả các thư mục không liên quan
+.DS_Store
+.anydesk/
+.mongodb/
+.npm/
+.nvm/
+.putty/
+.ssh/
+.vim/
+.vscode/
+.zsh_sessions/
+.zshrc
+Applications/
+Desktop/
+Downloads/
+Library/
+Movies/
+Music/
+Pictures/
+Public/
+Sites/
+WebstormProjects/
+composer.phar
+package-lock.json
+package.json
